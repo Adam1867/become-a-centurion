@@ -1,0 +1,27 @@
+/*
+|----------------------------------------
+| Layout
+|----------------------------------------
+*/
+
+shot-indicator {
+	display: block;
+
+	.shot-icon {
+		display: inline-block;
+		height: 8rem;
+		vertical-align: top;
+	}
+
+	.shot-count {
+		display: inline-block;
+		font-size: 8rem;
+		font-weight: $bold;
+		line-height: 1;
+		// text-shadow: -1px 1px $white,
+		// 			 -1px -1px $white,
+		// 			 1px 1px $white,
+		// 			 1px -1px $white;
+	}
+
+}

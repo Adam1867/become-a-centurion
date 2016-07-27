@@ -1,0 +1,105 @@
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+.calculator-form input[type=radio]:checked+label,a{color:#eab736}
+img,legend{border:0}
+legend,td,th{padding:0}
+@font-face{font-family:Montserrat;font-style:normal;font-weight:400;src:local('Montserrat-Regular'),url(https://fonts.gstatic.com/s/montserrat/v7/zhcz-_WihjSQC0oHJ9TCYC3USBnSvpkopQaUR-2r7iU.ttf) format('truetype')}
+@font-face{font-family:Montserrat;font-style:normal;font-weight:700;src:local('Montserrat-Bold'),url(https://fonts.gstatic.com/s/montserrat/v7/IQHow_FEYlDC4Gzy_m8fcvEr6Hm6RMS0v1dtXsGir4g.ttf) format('truetype')}
+html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
+body{margin:0}
+article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}
+audio,canvas,progress,video{display:inline-block;vertical-align:baseline}
+audio:not([controls]){display:none;height:0}
+[hidden],template{display:none}
+a{background-color:transparent;text-decoration:none}
+a:active,a:hover{outline:0}
+abbr[title]{border-bottom:1px dotted}
+b,optgroup,strong{font-weight:700}
+dfn{font-style:italic}
+h1{margin:.67em 0}
+mark{background:#ff0;color:#000}
+small{font-size:80%}
+sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}
+sup{top:-.5em}
+sub{bottom:-.25em}
+svg:not(:root){overflow:hidden}
+figure{margin:1em 40px}
+hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}
+pre,textarea{overflow:auto}
+code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}
+button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}
+button{overflow:visible}
+button,select{text-transform:none}
+button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}
+button[disabled],html input[disabled]{cursor:default}
+.button,.calculator-form label{cursor:pointer;font-weight:700}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
+input{line-height:normal}
+input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}
+input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{height:auto}
+input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}
+input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}
+fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}
+table{border-collapse:collapse;border-spacing:0}
+html{box-sizing:border-box}
+*,:after,:before{box-sizing:inherit}
+body,html{width:100%;height:100%;background-color:#363a3e;color:#fff;text-align:center}
+a:active,a:focus,a:hover{color:#eec45b}
+.button{display:inline-block;background-color:transparent;border:3px solid #fff;color:#fff;padding:1rem 1.8rem;border-radius:1rem}
+.button:active,.button:focus,.button:hover{background-color:#eab736;color:#fff}
+.calculator-intro{display:block;font-size:1.2rem;font-weight:700;margin-bottom:2em}
+@media (min-width:600px){.calculator-intro{font-size:1.8rem;margin-bottom:1em}
+}
+.calculator-form{overflow:hidden}
+.calculator-form fieldset{border:none;margin:0 0 1rem;padding:1rem}
+.calculator-form fieldset.containers{padding:0 1rem}
+.calculator-form fieldset.capacity,.calculator-form fieldset.players{float:left;text-align:left;width:50%}
+.calculator-form .option{float:left;padding-bottom:1rem;border-bottom:2px solid #494e54;width:50%}
+.calculator-form label{color:#717a82;font-size:1.2rem}
+.calculator-form input[type=radio]{display:none}
+.calculator-form input[type=radio]+label{position:relative;padding-left:2rem}
+.calculator-form input[type=radio]+label:before{display:inline;content:'\f0c8';font:normal normal normal 1.8rem FontAwesome;position:absolute;left:0;top:50%;-webkit-transform:translateY(-50%);-moz-transform:translateY(-50%);-ms-transform:translateY(-50%);-o-transform:translateY(-50%);transform:translateY(-50%)}
+.calculation,.game-intro,.home-intro{font-weight:700;display:block}
+body,h1,h2,h3,h4,h5,h6{font-family:Montserrat,Helvetica,Arial,sans-serif}
+.calculator-form input[type=radio]:checked+label:before{content:'\f14a'}
+.calculator-form input[type=number]{display:block;width:100%;border:none;background:0 0;padding:.5rem 1rem;font-size:2rem;border-bottom:2px solid #494e54}
+.calculator-form input[type=number]:focus{outline:0;border-bottom:2px solid #717a82}
+.calculation{font-size:1.4rem}
+.calculation>span{color:#eab736;display:block;font-size:1.8rem}
+@media (min-width:600px){.calculation{font-size:1.8rem}
+.calculation>span{font-size:2.2rem}
+}
+footer a{color:#61666b;font-size:.8rem}
+.centurion-logo{margin-bottom:2rem}
+.centurion-logo .back-button{display:block;color:#717a82;font-size:1.6rem;padding:.25rem .5rem;border-radius:.25rem;background-color:#44494e;position:absolute;top:2rem;left:2rem}
+.centurion-logo>img{height:6rem}
+@media (min-width:600px){.centurion-logo .back-button{padding:.5rem .75rem}
+.centurion-logo{margin-bottom:3rem}
+.centurion-logo>img{height:8rem}
+}
+.home-intro{font-size:2rem;margin-bottom:1em}
+.home-menu{margin-bottom:2rem}
+.home-menu .button{margin-bottom:1rem}
+.home-menu .button:last-of-type{margin-bottom:0}
+@media (min-width:600px){.home-intro{font-size:3rem}
+.home-menu .button{margin-right:1rem}
+.home-menu .button:last-of-type{margin:0}
+}
+.game-intro{font-size:1.2rem;margin-bottom:2em}
+@media (min-width:600px){.game-intro{font-size:1.8rem;margin-bottom:1em}
+}
+.wrap .main{width:600px;max-width:100%;margin:0 auto;padding:3rem 1.5rem}
+body{font-weight:400;font-size:1rem}
+h1,h2,h3,h4,h5,h6{font-weight:700}
+h1{font-size:4rem}
+h2{font-size:3rem}
+h3{font-size:2rem}
+p{-ms-word-wrap:break-word;word-break:break-word;word-wrap:break-word;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;-webkit-hyphenate-before:2;-webkit-hyphenate-after:3;hyphenate-lines:3;-webkit-font-feature-settings:"liga","dlig";-moz-font-feature-settings:"liga=1, dlig=1";-ms-font-feature-settings:"liga","dlig";-o-font-feature-settings:"liga","dlig";font-feature-settings:"liga","dlig"}
+shot-indicator{display:block}
+shot-indicator .shot-icon{display:inline-block;height:8rem;vertical-align:top}
+shot-indicator .shot-count{display:inline-block;font-size:8rem;font-weight:700;line-height:1}
+shot-timer{display:block;margin-bottom:2rem}
+shot-timer .time-until{display:block;margin-bottom:.5em;font-size:2rem;letter-spacing:-.025em;font-weight:700;line-height:1;text-transform:uppercase;color:#61666b}
+shot-timer timer{display:block;font-size:8rem;font-weight:900;line-height:6rem}
+shot-timer timer:after{content:'s';font-size:8rem;color:#f7f2e5}
+@media (min-width:600px){shot-timer{margin-bottom:3rem}
+}

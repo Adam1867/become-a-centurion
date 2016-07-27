@@ -1,0 +1,27 @@
+/*
+|----------------------------------------
+| Buttons
+|----------------------------------------
+*/
+
+.button {
+	display: inline-block;
+	background-color: transparent;
+	border: 3px solid $white;
+	color: $white;
+	font-weight: $bold;
+	padding: 1rem 1.8rem;
+	border-radius: 1rem;
+	cursor: pointer;
+
+	&:hover,
+	&:focus,
+	&:active {
+		background-color: $amber;
+		color: $white;
+	}
+
+	&.button-clear {
+		
+	}
+}

@@ -1,0 +1,24 @@
+<div class="centurion-logo">
+	<a class="back-button" href="#/"><i class="fa fa-arrow-circle-o-left"></i></a>
+	<img src="images/svg/centurion_logo[1].svg">
+</div>
+
+<div class="before-game" ng-if="!game.gameInProgress && !game.gameCompleted" ng-init="initGame()">
+	<span class="game-intro">Prepare yourself. Then begin.</span>
+	<a class="button" ng-click="startGame()" ng-disabled="timerRunning">Begin Centurion</a>
+</div>
+
+<div class="game-in-progress" ng-if="game.gameInProgress">
+	<shot-timer></shot-timer>
+	<shot-indicator></shot-indicator>
+</div>
+
+<div class="game-completed" ng-if="game.gameCompleted">
+	<h1>You are centurions!</h1>
+	<shot-indicator></shot-indicator>
+	<p>Enjoy that? <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=Y3NLXZLKNFSHL">I'll accept a pint.</a></p>
+</div>
+
+
+<!-- <pre>config: {{config | json}}</pre> -->
+<!-- <pre>game: {{game | json}}</pre> -->

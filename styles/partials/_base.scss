@@ -1,0 +1,30 @@
+/*
+|----------------------------------------
+| Base
+|----------------------------------------
+*/
+html {
+ 	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+html, body {
+	width: 100%;
+	height: 100%;
+	background-color: $dark;
+	color: $white;
+	text-align: center;
+}
+
+/* Links */
+a {
+	color: $link-color;
+	text-decoration: none;
+
+	&:hover,
+	&:active,
+	&:focus {
+		color: $link-hover;
+	}
+}

@@ -1,0 +1,119 @@
+/*
+|----------------------------------------
+| Calculator
+|----------------------------------------
+*/
+
+.calculator-intro {
+	display: block;
+	font-size: 1.2rem;
+	font-weight: $bold;
+	margin-bottom: 2em;
+
+	@media (min-width: $mobile) {
+		font-size: 1.8rem;
+		margin-bottom: 1em;
+	}
+}
+
+.calculator-form {
+	overflow: hidden;
+
+	fieldset {
+		border: none;
+		margin: 0;
+		padding: 1rem;
+		margin-bottom: 1rem;
+
+		&.containers {
+			padding: 0 1rem;
+		}
+
+		&.capacity,
+		&.players {
+			float: left;
+			text-align: left;
+			width: 50%;
+
+			@media (min-width: $mobile) {
+
+			}
+		}
+	}
+
+	.option {
+		float: left;
+		padding-bottom: 1rem;
+		border-bottom: 2px solid lighten($dark, 8%);
+		width: 50%;
+	}
+
+	label {
+		cursor: pointer;
+		color: lighten($dark, 25%);
+		font-weight: $bold;
+		font-size: 1.2rem;
+	}
+
+	input[type="radio"] {
+		display: none;
+
+		& + label {
+			position: relative;
+			padding-left: 2rem;
+		}
+
+		& + label:before {
+			display: inline;
+			content: '\f0c8';
+			font: normal normal normal 1.8rem FontAwesome;
+			position: absolute;
+    		left: 0;
+    		top: 50%;
+    		@include transform(translateY(-50%));
+		}
+
+		&:checked + label {
+			color: $amber;
+			
+			&:before {
+				content: '\f14a';
+			}
+		}
+	}
+
+	input[type="number"] {
+		display: block;
+		width: 100%;
+		border:	none;
+		background: transparent;
+		padding: 0.5rem 1rem;
+		font-size: 2rem;
+		border-bottom: 2px solid lighten($dark, 8%);
+
+		&:focus {
+			outline: none;
+			border-bottom: 2px solid lighten($dark, 25%);
+		}
+	}
+}
+
+.calculation {
+	display: block;
+	font-size: 1.4rem;
+	font-weight: $bold;
+
+	@media (min-width: $mobile) {
+		font-size: 1.8rem;
+	}
+
+	& > span {
+		color: $amber;
+		display: block;
+		font-size: 1.8rem;
+
+		@media (min-width: $mobile) {
+			font-size: 2.2rem;
+		}
+	}
+}

@@ -1,0 +1,38 @@
+/*
+|----------------------------------------
+| Timer
+|----------------------------------------
+*/
+
+shot-timer {
+	display: block;
+	margin-bottom: 2rem;
+
+	.time-until {
+		display: block;
+		margin-bottom: 0.5em;
+		font-size: 2rem;
+		letter-spacing: -0.025em;
+		font-weight: $bold;
+		line-height: 1;
+		text-transform: uppercase;
+		color: $grey;
+	}
+
+	timer {
+		display: block;
+		font-size: 8rem;
+		font-weight: $extra-bold;
+		line-height: 6rem;
+
+		&:after {
+			content: 's';
+			font-size: 8rem;
+			color: $creme;
+		}
+	}
+
+	@media (min-width: $mobile) {
+		margin-bottom: 3rem;
+	}
+}
