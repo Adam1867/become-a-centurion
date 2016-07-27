@@ -68,6 +68,8 @@ body,h1,h2,h3,h4,h5,h6{font-family:Montserrat,Helvetica,Arial,sans-serif}
 @media (min-width:600px){.calculation{font-size:1.8rem}
 .calculation>span{font-size:2.2rem}
 }
+footer{padding:0 1.5rem 3rem}
+footer p{margin:0}
 footer a{color:#61666b;font-size:.8rem}
 .centurion-logo{margin-bottom:2rem}
 .centurion-logo .back-button{display:block;color:#717a82;font-size:1.6rem;padding:.25rem .5rem;border-radius:.25rem;background-color:#44494e;position:absolute;top:2rem;left:2rem}
@@ -87,6 +89,8 @@ footer a{color:#61666b;font-size:.8rem}
 .game-intro{font-size:1.2rem;margin-bottom:2em}
 @media (min-width:600px){.game-intro{font-size:1.8rem;margin-bottom:1em}
 }
+.game-completed h1{font-size:3rem}
+.game-completed p{margin:2rem 0}
 .wrap .main{width:600px;max-width:100%;margin:0 auto;padding:3rem 1.5rem}
 body{font-weight:400;font-size:1rem}
 h1,h2,h3,h4,h5,h6{font-weight:700}

@@ -12,8 +12,8 @@
     .controller('centurionCtrl', function($scope, ngAudio) {
 
     $scope.config = {
-      numShots: 5,
-      shotInterval: 2
+      numShots: 100,
+      shotInterval: 60
     };
 
     $scope.game = {};
