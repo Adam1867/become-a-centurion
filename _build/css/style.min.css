@@ -58,7 +58,7 @@ a:active,a:focus,a:hover{color:#eec45b}
 .calculator-form input[type=radio]{display:none}
 .calculator-form input[type=radio]+label{position:relative;padding-left:2rem}
 .calculator-form input[type=radio]+label:before{display:inline;content:'\f0c8';font:normal normal normal 1.8rem FontAwesome;position:absolute;left:0;top:50%;-webkit-transform:translateY(-50%);-moz-transform:translateY(-50%);-ms-transform:translateY(-50%);-o-transform:translateY(-50%);transform:translateY(-50%)}
-.calculation,.game-intro,.home-intro{font-weight:700;display:block}
+.before-game .game-intro,.calculation,.home-intro{font-weight:700;display:block}
 body,h1,h2,h3,h4,h5,h6{font-family:Montserrat,Helvetica,Arial,sans-serif}
 .calculator-form input[type=radio]:checked+label:before{content:'\f14a'}
 .calculator-form input[type=number]{display:block;width:100%;border:none;background:0 0;padding:.5rem 1rem;font-size:2rem;border-bottom:2px solid #494e54}
@@ -86,9 +86,14 @@ footer a{color:#61666b;font-size:.8rem}
 .home-menu .button{margin-right:1rem}
 .home-menu .button:last-of-type{margin:0}
 }
-.game-intro{font-size:1.2rem;margin-bottom:2em}
-@media (min-width:600px){.game-intro{font-size:1.8rem;margin-bottom:1em}
+.before-game .game-intro{font-size:1.2rem;margin-bottom:1em}
+@media (min-width:600px){.before-game .game-intro{font-size:1.8rem;margin-bottom:1em}
 }
+.before-game .game-help{color:#f7f2e5;display:block;font-size:1rem;margin-bottom:1em}
+.before-game .game-help>span{color:#eab736}
+@media (min-width:600px){.before-game .game-help{font-size:1.2rem;margin-bottom:1em}
+}
+.before-game>.button{margin-top:2rem}
 .game-completed h1{font-size:3rem}
 .game-completed p{margin:3rem 0 1.5rem}
 .wrap .main{width:600px;max-width:100%;margin:0 auto;padding:3rem 1.5rem}

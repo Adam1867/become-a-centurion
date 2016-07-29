@@ -3,16 +3,37 @@
 | Game
 |----------------------------------------
 */
-
-.game-intro {
-	display: block;
-	font-size: 1.2rem;
-	font-weight: $bold;
-	margin-bottom: 2em;
-
-	@media (min-width: $mobile) {
-		font-size: 1.8rem;
+.before-game {
+	.game-intro {
+		display: block;
+		font-size: 1.2rem;
+		font-weight: $bold;
 		margin-bottom: 1em;
+
+		@media (min-width: $mobile) {
+			font-size: 1.8rem;
+			margin-bottom: 1em;
+		}
+	}
+
+	.game-help {
+		color: $creme;
+		display: block;
+		font-size: 1rem;
+		margin-bottom: 1em;
+
+		& > span {
+			color: $amber;
+		}
+
+		@media (min-width: $mobile) {
+			font-size: 1.2rem;
+			margin-bottom: 1em;
+		}
+	}
+
+	& > .button {
+		margin-top: 1rem;
 	}
 }
 
