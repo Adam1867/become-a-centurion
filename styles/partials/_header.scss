@@ -8,18 +8,35 @@
 	margin-bottom: 2rem;
 
 	.back-button {
+		border: 1px solid $grey;
 		display: block;
-		color: lighten($dark, 25%);
-		font-size: 1.6rem;
-		padding: 0.25rem 0.5rem;
+		color: lighten($dark, 30%);
+		font-size: 1rem;
+		padding: 0.4rem 0.5rem;
 		border-radius: 0.25rem;
-		background-color: lighten($dark, 6%);
 		position: absolute;
 		top: 2rem;
 		left: 2rem;
 
+		&:hover {
+			background-color: lighten($dark, 5%);
+		}
+
+		& > .fa {
+			font-size: 1.6rem;
+			vertical-align: middle;
+		}
+
+		& > span {
+			display: none;
+		}
+
 		@media (min-width: $mobile) {
 			padding: 0.5rem 0.75rem;
+
+			& > span {
+				display: inline;
+			}
 		}
 	}
 

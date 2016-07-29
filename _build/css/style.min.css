@@ -1,5 +1,4 @@
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
-.calculator-form input[type=radio]:checked+label,a{color:#eab736}
 img,legend{border:0}
 legend,td,th{padding:0}
 @font-face{font-family:Montserrat;font-style:normal;font-weight:400;src:local('Montserrat-Regular'),url(https://fonts.gstatic.com/s/montserrat/v7/zhcz-_WihjSQC0oHJ9TCYC3USBnSvpkopQaUR-2r7iU.ttf) format('truetype')}
@@ -10,7 +9,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,secti
 audio,canvas,progress,video{display:inline-block;vertical-align:baseline}
 audio:not([controls]){display:none;height:0}
 [hidden],template{display:none}
-a{background-color:transparent;text-decoration:none}
+a{background-color:transparent;color:#eab736;text-decoration:none}
 a:active,a:hover{outline:0}
 abbr[title]{border-bottom:1px dotted}
 b,optgroup,strong{font-weight:700}
@@ -58,12 +57,12 @@ a:active,a:focus,a:hover{color:#eec45b}
 .calculator-form input[type=radio]{display:none}
 .calculator-form input[type=radio]+label{position:relative;padding-left:2rem}
 .calculator-form input[type=radio]+label:before{display:inline;content:'\f0c8';font:normal normal normal 1.8rem FontAwesome;position:absolute;left:0;top:50%;-webkit-transform:translateY(-50%);-moz-transform:translateY(-50%);-ms-transform:translateY(-50%);-o-transform:translateY(-50%);transform:translateY(-50%)}
-.before-game .game-intro,.calculation,.home-intro{font-weight:700;display:block}
 body,h1,h2,h3,h4,h5,h6{font-family:Montserrat,Helvetica,Arial,sans-serif}
+.calculator-form input[type=radio]:checked+label{color:#eab736}
 .calculator-form input[type=radio]:checked+label:before{content:'\f14a'}
 .calculator-form input[type=number]{display:block;width:100%;border:none;background:0 0;padding:.5rem 1rem;font-size:2rem;border-bottom:2px solid #494e54}
 .calculator-form input[type=number]:focus{outline:0;border-bottom:2px solid #717a82}
-.calculation{font-size:1.4rem}
+.calculation{display:block;font-size:1.4rem;font-weight:700}
 .calculation>span{color:#eab736;display:block;font-size:1.8rem}
 @media (min-width:600px){.calculation{font-size:1.8rem}
 .calculation>span{font-size:2.2rem}
@@ -72,13 +71,17 @@ footer{padding:0 1.5rem 3rem}
 footer p{margin:0}
 footer a{color:#61666b;font-size:.8rem}
 .centurion-logo{margin-bottom:2rem}
-.centurion-logo .back-button{display:block;color:#717a82;font-size:1.6rem;padding:.25rem .5rem;border-radius:.25rem;background-color:#44494e;position:absolute;top:2rem;left:2rem}
+.centurion-logo .back-button{border:1px solid #61666b;display:block;color:#7e878f;font-size:1rem;padding:.4rem .5rem;border-radius:.25rem;background-color:#363a3e;position:absolute;top:2rem;left:2rem}
+.centurion-logo .back-button:hover{background-color:#42474c}
+.centurion-logo .back-button>.fa{font-size:1.6rem;vertical-align:middle}
+.centurion-logo .back-button>span{display:none}
 .centurion-logo>img{height:6rem}
 @media (min-width:600px){.centurion-logo .back-button{padding:.5rem .75rem}
+.centurion-logo .back-button>span{display:inline}
 .centurion-logo{margin-bottom:3rem}
 .centurion-logo>img{height:8rem}
 }
-.home-intro{font-size:2rem;margin-bottom:1em}
+.home-intro{display:block;font-size:2rem;font-weight:700;margin-bottom:1em}
 .home-menu{margin-bottom:2rem}
 .home-menu .button{margin-bottom:1rem}
 .home-menu .button:last-of-type{margin-bottom:0}
@@ -86,14 +89,14 @@ footer a{color:#61666b;font-size:.8rem}
 .home-menu .button{margin-right:1rem}
 .home-menu .button:last-of-type{margin:0}
 }
-.before-game .game-intro{font-size:1.2rem;margin-bottom:1em}
+.before-game .game-intro{display:block;font-size:1.2rem;font-weight:700;margin-bottom:1em}
 @media (min-width:600px){.before-game .game-intro{font-size:1.8rem;margin-bottom:1em}
 }
 .before-game .game-help{color:#f7f2e5;display:block;font-size:1rem;margin-bottom:1em}
 .before-game .game-help>span{color:#eab736}
 @media (min-width:600px){.before-game .game-help{font-size:1.2rem;margin-bottom:1em}
 }
-.before-game>.button{margin-top:2rem}
+.before-game>.button{margin-top:1rem}
 .game-completed h1{font-size:3rem}
 .game-completed p{margin:3rem 0 1.5rem}
 .wrap .main{width:600px;max-width:100%;margin:0 auto;padding:3rem 1.5rem}
