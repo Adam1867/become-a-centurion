@@ -90,7 +90,7 @@ footer a{color:#61666b;font-size:.8rem}
 @media (min-width:600px){.game-intro{font-size:1.8rem;margin-bottom:1em}
 }
 .game-completed h1{font-size:3rem}
-.game-completed p{margin:2rem 0}
+.game-completed p{margin:3rem 0 1.5rem}
 .wrap .main{width:600px;max-width:100%;margin:0 auto;padding:3rem 1.5rem}
 body{font-weight:400;font-size:1rem}
 h1,h2,h3,h4,h5,h6{font-weight:700}
