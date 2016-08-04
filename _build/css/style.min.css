@@ -71,7 +71,7 @@ footer{padding:0 1.5rem 3rem}
 footer p{margin:0}
 footer a{color:#61666b;font-size:.8rem}
 .centurion-logo{margin-bottom:2rem}
-.centurion-logo .back-button{border:2px solid #fff;display:block;color:#fff;font-size:1rem;padding:.4rem .5rem;border-radius:.25rem;position:absolute;top:2rem;left:2rem}
+.centurion-logo .back-button{border:2px solid #fff;display:block;color:#fff;font-size:1rem;padding:.4rem .5rem;border-radius:.5rem;position:absolute;top:2rem;left:2rem}
 .centurion-logo .back-button:hover{background-color:#eab736}
 .centurion-logo .back-button>.fa{font-size:1.6rem;vertical-align:middle}
 .centurion-logo .back-button>span{display:none}
